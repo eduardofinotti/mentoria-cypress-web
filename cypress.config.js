@@ -1,6 +1,7 @@
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
+  projectId: "uq5js2",
   e2e: {
     defaultCommandTimeout: 10000,
     baseUrl: 'https://automationpratice.com.br',
